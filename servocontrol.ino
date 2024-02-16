@@ -17,7 +17,7 @@ void setup() {
   motoservo.attach(pinservo); // definimos que el motor va a estar en el pin
   pinMode(pininiciar, INPUT); // el pininiciar sera de entrada
   pinMode(pinresert, INPUT); // igual de entrada
-  motoservo.write(angulo); // el motor al inicar se pondra a el angulp 
+  motoservo.write(angulo); // el motor al inicar se pondra a el angulo 0
   pinMode(ledblanco, OUTPUT); // se ponen los leds como salida en los pines aclarados
   pinMode(ledverde, OUTPUT);
   pinMode(ledamarillo, OUTPUT);
